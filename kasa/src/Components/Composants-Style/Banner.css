@@ -1,0 +1,37 @@
+.nav{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:40px;
+}
+
+.liste-nav{
+    display:flex;
+    flex-direction:row;
+    text-decoration: none;
+    align-items: center;
+}
+
+.li-nav{
+    text-decoration:none;
+    list-style: none;
+    color:#FF6060;
+    font-size: 25px;
+}
+.li-nav2{
+    text-decoration:none;
+    list-style: none;
+    color:#FF6060;
+    margin-left:50px;
+    font-size: 25px;
+}
+.li-nav:hover{
+    border-bottom:1px solid #FF6060;
+}
+.li-nav2:hover{
+    
+    border-bottom:1px solid #FF6060;
+}
+.li-nav0:hover{
+    
+    border-bottom:none;
+}
