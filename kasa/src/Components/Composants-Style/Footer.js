@@ -9,7 +9,6 @@ export default function Footer() {
     <div className='foot'>
     <Link
       className="li-foot"
-      activeClassName="active"
       to="/">
       <img src={Logo} alt="logo-kasa"></img>
       <p className='text-foot'>© 2020 Kasa. All rights reserved</p>

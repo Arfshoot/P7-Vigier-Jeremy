@@ -11,7 +11,7 @@ function Cart() {
             {
                 Logements.map( logement =>{
                     return(
-                        <Link to={logement} className="cart" key={logement.id} >
+                        <Link to={`/Logement/${logement.id}`} className="cart" key={logement.id} >
                             <figure className="img-box">
                             <img src={logement.cover}  alt='img-logment' className="img"></img>
                             <figcaption className='text-box'> 

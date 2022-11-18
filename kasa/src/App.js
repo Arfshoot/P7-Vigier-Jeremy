@@ -8,13 +8,14 @@ import Apropos from './Components/Apropos/Apropos'
 
 
 
+
 function App () {
     return (
         <div className="App">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="*" element={<Page404 />} />
-                <Route path="/Logement" element={<Logement />} />
+                <Route path="/Logement/:id" element= {<Logement />} />
                 <Route path="/Apropos" element={<Apropos />} />
             </Routes>
         </div>

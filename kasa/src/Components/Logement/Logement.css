@@ -1,0 +1,60 @@
+.loge-img{
+    height:400px;
+    width: 100%;
+    object-fit:cover;
+    border-radius:25px;
+}
+
+
+
+.loge-place{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color: #FF6060;
+}
+.loge-nom h2{
+    font-size:2rem;
+    font-weight:500;
+    margin-bottom: 10px;
+    margin-top:10px;
+    
+
+}
+.loge-nom p{
+    display: flex;
+    justify-content: flex-start;
+    color: #FF6060;
+    margin-top:0;
+    font-size:1rem;
+
+}
+
+.loge-aut{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    color: #FF6060;
+    width: 30%;
+    
+}
+.loge-aut p{
+    font-size:28;
+    width: 50%;
+    text-align: right;
+}
+.loge-aut img{
+    height: 70px;
+    width: 70px;
+    border-radius:50%;
+    margin-left: 10px;
+}
+
+.tags-place p{
+    background-color: #FF6060;
+    border-radius:20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left:15px;
+    padding: right 15px;
+}

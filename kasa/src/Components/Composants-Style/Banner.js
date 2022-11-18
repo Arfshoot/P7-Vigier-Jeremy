@@ -11,24 +11,21 @@ export default function Banner() {
             <div>
             <NavLink
               className="li-nav0"
-              activeClassName="active"
               to="/"
             >
               <img src={Logo} alt="logo-kasa"></img>
             </NavLink>
             </div>
-            
+
             <div className="liste-nav">
             <NavLink
               className="li-nav"
-              activeClassName="active"
               to="/"
             >
               Accueil
             </NavLink>
             <NavLink
               className="li-nav2"
-              activeClassName="active"
               to="/Apropos"
             >
               A Propos
