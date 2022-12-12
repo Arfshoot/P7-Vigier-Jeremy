@@ -1,60 +1,161 @@
-.loge-img{
-    height:400px;
-    width: 100%;
-    object-fit:cover;
-    border-radius:25px;
-}
-
-
-
-.loge-place{
+.loge-all{
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     align-items:center;
-    color: #FF6060;
+    width: 100%;
 }
-.loge-nom h2{
-    font-size:2rem;
-    font-weight:500;
-    margin-bottom: 10px;
-    margin-top:10px;
+.loge-place{
     
-
-}
-.loge-nom p{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
     color: #FF6060;
-    margin-top:0;
-    font-size:1rem;
-
+    margin-top:20px;
+    
+}
+.loge-place h2{
+    display: flex;
+    align-items:center;
+}
+.loge-place p {
+    text-align: center;
 }
 
 .loge-aut{
     display: flex;
-    align-items:center;
-    justify-content:flex-end;
+    flex-direction:column;
     color: #FF6060;
-    width: 30%;
+    
     
 }
-.loge-aut p{
-    font-size:28;
-    width: 50%;
-    text-align: right;
+.loge-aut-place{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
 }
-.loge-aut img{
+
+.loge-aut-place img{
     height: 70px;
     width: 70px;
     border-radius:50%;
     margin-left: 10px;
 }
+.loge-aut p{
+    display: flex;
+    font-size:18px;
+    width: 20%;
+    text-align: right;
+    align-items: flex-end;
+}
+.stars  .empty__stars{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin-top: 10px;
+}
+.stars img{
+    margin-left:5px;
 
-.tags-place p{
+}
+
+
+
+.tags-star{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+}
+.tag{
+    color: #fff;
+    align-self: center;
     background-color: #FF6060;
     border-radius:20px;
     padding-top:5px;
     padding-bottom: 5px;
-    padding-left:15px;
-    padding: right 15px;
+    width: 120px;
+    margin-top:10px;
+    margin-right: 20px;
+}
+
+
+@media (max-width:1240px){
+
+.loge-all{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.loge-place{
+    display: flex;
+    align-content:flex-start;
+    margin-left: 5px;
+    width: 350px;
+}
+.loge-place h2{
+    font-size:18px;
+    text-align: left;
+}
+    .tags-star{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .tags{
+        width: 350px;
+    }
+    .tag{
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        font-size:10px;
+        font-weight:500;
+        align-items:center;
+
+    }
+
+
+
+
+    .loge-aut{
+        display: flex;
+        flex-direction:row-reverse;
+        align-items:center;
+        justify-content: space-between;
+        width: 350px;
+    }
+.loge-aut-place{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+   
+    
+}
+
+.loge-aut-place img{
+
+    height:40px;
+    width: 40px;
+    margin-left: 25px;
+    
+
+}
+.loge-aut-place p {
+    font-size: 14px;
+    margin-right: 10px;
+}
+.stars img{
+    height: 20px;
+    
+   
+}
+
 }

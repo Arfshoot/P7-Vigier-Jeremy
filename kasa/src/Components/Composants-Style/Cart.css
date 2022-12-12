@@ -15,14 +15,10 @@
     width: 340px;
     border-radius: 20px 20px 20px 20px;
     text-decoration: none;
-    margin-bottom: 40px;
-
-
-
-    
+    margin-bottom: 40px;    
 }
 
-.img{
+.img-all{
     z-index: 2;  
     height: 340px;
     width: 340px;
@@ -36,12 +32,35 @@
 .text-box{
     display: flex;
     justify-content: flex-start;
+    text-align: left;
     position: relative;
-    top:-60px;
-    left: 5px;
+    width: 50%;
+    top:-80px;
+    left: 8px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 0px black,
     1px 1px 0px black,
     1px 1px 0px black;
+
+}
+
+
+@media (max-width:1240px) {
+ .Box{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 350px;
+    margin: 0;
+
+ }
+ .cart{
+    height: 255px;
+    width: 90%;
+ }
+.img-all{
+    height: 255px;
+    
+}
 
 }

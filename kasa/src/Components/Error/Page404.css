@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .numb-text{
@@ -29,4 +30,14 @@
 }
 .link-404 p {
     border-bottom: 1px solid #FF6060;
+}
+@media (max-width:1240px){
+    .numb-404{
+        font-size:96px;
+
+    }
+    .text-404{
+        font-size: 18px;
+        width: 100%;
+    }
 }

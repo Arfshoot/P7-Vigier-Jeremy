@@ -13,7 +13,7 @@ function Cart() {
                     return(
                         <Link to={`/Logement/${logement.id}`} className="cart" key={logement.id} >
                             <figure className="img-box">
-                            <img src={logement.cover}  alt='img-logment' className="img"></img>
+                            <img src={logement.cover}  alt='img-logment' className="img-all"></img>
                             <figcaption className='text-box'> 
                             <p >{logement.title}</p> </figcaption>
                             </figure>

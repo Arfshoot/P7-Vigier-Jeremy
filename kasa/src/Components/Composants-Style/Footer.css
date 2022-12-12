@@ -2,9 +2,12 @@
     
     border-bottom:none;
     background-color:black;
-    width: 100%;
+    width: 1440px;
     margin-top:20px;
-    padding-top:20px;
+    padding-top:20px; 
+    margin-left: -100px;
+
+    
 }
 .li-foot{
     text-decoration: none;
@@ -12,4 +15,12 @@
 .text-foot{
     color: white;
     padding-bottom: 20px;
+}
+
+@media (max-width:1240px) {
+    .foot{
+    width: 100%;
+    margin-left: 0;
+        
+    }
 }

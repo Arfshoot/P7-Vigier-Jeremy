@@ -1,3 +1,13 @@
+.apropos-all{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+
 .container-snow{
     background-color: black;
     border-radius:25px;
@@ -17,6 +27,25 @@
 }
 .accordeon-placement{
     display:flex;
-    flex-direction: row;
-    justify-content:center;
+    flex-direction: column;
+    
+    width: 1020px;
+}
+
+
+@media (max-width:1240px){
+    .container-snow{
+        height: 111px;
+        width: 350px;
+    }
+    .Img-snow{
+        object-fit: cover;
+        height: 111px;
+        width: 350px;
+    }
+    .accordeon-placement{
+        
+        width: 350px;
+        
+    }
 }

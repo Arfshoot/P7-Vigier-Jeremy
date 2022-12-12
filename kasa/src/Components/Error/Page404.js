@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import Banner from '../Composants-Style/Banner'
+import Footer from '../Composants-Style/Footer'
 import './Page404.css'
 
 
@@ -20,6 +21,9 @@ export default function Error () {
           to='/'>
             <p>Retouner à la page d'accueil</p>
           </Link>
+        </div>
+        <div>
+          <Footer />
         </div>
         </div>
     </div>

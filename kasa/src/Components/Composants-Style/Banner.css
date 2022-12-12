@@ -2,6 +2,7 @@
     display:flex;
     justify-content:space-between;
     margin-bottom:40px;
+    margin: 10px;
 }
 
 .liste-nav{
@@ -34,4 +35,33 @@
 .li-nav0:hover{
     
     border-bottom:none;
+}
+
+@media (max-width:1240px){
+    .nav{
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-left: 5px;
+
+        
+    }
+    .nav img{
+        width: 150px;
+        
+        
+    }
+
+    .li-nav{
+         font-size:15px;
+         margin-left: 0px;
+         text-transform: uppercase;
+    }
+    .li-nav2{
+        font-size:15px;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
 }

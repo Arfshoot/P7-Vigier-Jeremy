@@ -12,7 +12,9 @@ import Footer from '../Composants-Style/Footer'
 function Home () {
     return (
         <div>
+            
             <Banner />
+            
             <div className="container-mont">
                  <img src={montagne} className="Img-mont" alt="fond-montagne"></img>
                  <h1 className='Img-h1'>Chez vous, partout et ailleurs</h1>
