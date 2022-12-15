@@ -30,7 +30,7 @@ const Apropos = () => {
         </div>
 
         <div>
-          <Footer />
+          <Footer className='Foot-apropos'/>
         </div>
     </div>
   )

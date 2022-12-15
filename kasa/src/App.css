@@ -2,8 +2,12 @@
 
   text-align: center;
   width: 1240px;
-  margin: auto;
   margin-top:50px;
+  margin: auto;
+  
+  
+  
+
   
   
 }
@@ -45,12 +49,13 @@
 
 
 
-@media (max-width:1240px) {
+
+@media (min-width:350px) and (max-width:480px){
   .App{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:0;
+    margin-top: 0;
     width: 100%;
   }
 }

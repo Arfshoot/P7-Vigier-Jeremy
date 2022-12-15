@@ -2,7 +2,7 @@
     display:flex;
     justify-content:space-between;
     margin-bottom:40px;
-    margin: 10px;
+    margin-left: 5px;
 }
 
 .liste-nav{
@@ -37,7 +37,17 @@
     border-bottom:none;
 }
 
-@media (max-width:1240px){
+@media (min-width:481px) and (max-width:1024px){
+    .nav{
+        width:98%;
+    }
+
+}
+
+
+
+
+@media (min-width:350px) and (max-width:480px){
     .nav{
         width:100%;
         display: flex;

@@ -31,9 +31,14 @@
     
     width: 1020px;
 }
+@media (min-width:481px) and (max-width:1024px){
+    .Foot-apropos{
+        position: absolute;
+        bottom: 0%;
+    }
+}
 
-
-@media (max-width:1240px){
+@media (min-width:350px) and (max-width:480px){
     .container-snow{
         height: 111px;
         width: 350px;

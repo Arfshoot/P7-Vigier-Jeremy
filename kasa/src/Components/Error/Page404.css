@@ -31,7 +31,7 @@
 .link-404 p {
     border-bottom: 1px solid #FF6060;
 }
-@media (max-width:1240px){
+@media (min-width:350px) and (max-width:480px){
     .numb-404{
         font-size:96px;
 

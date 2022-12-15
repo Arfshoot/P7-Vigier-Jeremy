@@ -3,6 +3,7 @@
     border-radius:25px;
     height: 220px;
     width: 1240px;
+    
 
 }
 
@@ -27,11 +28,19 @@
     
 
 }
-@media (max-width:1240px){
+
+
+
+
+@media (min-width:350px) and (max-width:480px){
     .container-mont{
         height: 111px;
         width: 350px;
-        margin-bottom:20px;   
+        margin-bottom:20px; 
+        
+
+        
+
  }
     .Img-mont{
         object-fit: cover;

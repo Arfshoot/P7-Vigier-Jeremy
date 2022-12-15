@@ -44,19 +44,29 @@
 
 }
 
-
-@media (max-width:1240px) {
+@media (min-width:481px) and (max-width:1024px){
+    .cart{
+        width: 500px;
+        height:350px;
+    }
+    .img-all{
+        width: 500px;
+        
+    }
+}
+@media (min-width:350px) and (max-width:480px) {
  .Box{
     display: flex;
     align-items:center;
     flex-direction: column;
+    
     width: 350px;
-    margin: 0;
+    
 
  }
  .cart{
     height: 255px;
-    width: 90%;
+    width: 80%;
  }
 .img-all{
     height: 255px;

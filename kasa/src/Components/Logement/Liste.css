@@ -59,7 +59,7 @@
     position: relative;
 }
 
-@media (max-width:1240px){
+@media (min-width:350px) and (max-width:480px){
     .drop{
         display: flex;
         flex-direction: column;
