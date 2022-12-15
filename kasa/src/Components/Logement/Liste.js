@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import ArrowTop from "./Images/Arrow-Top.png";
-import ArrowBot from "./Images/Arrow-Bot.png";
+import ArrowTop from "./../../images/Arrow-Top.png";
+import ArrowBot from "./../../images/Arrow-Bot.png";
 
 export default function Liste({ txt, title, txtArray }) {
+   /* par défault fermé */
    const [isOpen, setIsOpen] = useState(false);
-
+         /*   quand le clic fait que le bandeau est fermé 'fleche en haut' alors cela n'affiche que le titre et "derriere" se trouve le cadre de texte  */
    return isOpen ? (
       <div>
+
          <button
             className="dropdown__button"
             type="button"
@@ -28,6 +30,7 @@ export default function Liste({ txt, title, txtArray }) {
          )}
       </div>
    ) : (
+      /* quand le clic déroule le bandeau alors cela fait apparaitre le cadre du text et modifie le sens de la fleche*/
       <button
          className="dropdown__button"
          type="button"

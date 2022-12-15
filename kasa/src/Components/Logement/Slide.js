@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import ArrowLeft from "./Images/Arrow-Left.png";
-import ArrowRight from "./Images/Arrow-Right.png";
+import ArrowLeft from "./../../images/Arrow-Left.png";
+import ArrowRight from "./../../images/Arrow-Right.png";
 
 function Slider(product) {
    const [currentIndex, setCurrentIndex] = useState(0);

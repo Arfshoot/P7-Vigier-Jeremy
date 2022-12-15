@@ -1,9 +1,9 @@
 
-import { useParams} from "react-router-dom"
+
 import React from 'react'
 import Banner from '../Composants-Style/Banner'
 import Footer from '../Composants-Style/Footer'
-import montagneSnow from './Images/img-snow.png'
+import montagneSnow from './../../images/img-snow.png'
 import apropos from '../../dataApropos.json'
 import Liste from '../Logement/Liste'
 import './Apropos.css'
@@ -12,11 +12,6 @@ import './Apropos.css'
 
 const Apropos = () => {
 
-const apropo = apropos.find((apropo) => apropo)
-const {question , answer} = apropo
-const {id} = useParams()
-
-
   return (
     <div >
         <Banner />
@@ -24,14 +19,13 @@ const {id} = useParams()
         <div className="container-snow">
                  <img src={montagneSnow} className="Img-snow" alt="fond-montagne"></img>    
             </div>
-            <div className='accordeon-placement'>
+            <div className='accordeon-placement' >
             {apropos.map((data) => 
-                       <Liste
+                       <Liste key={data.question }
                   title={data.question}
                   txt={data.answer}
               /> ) }
 
-                
             </div>
         </div>
 
@@ -41,6 +35,5 @@ const {id} = useParams()
     </div>
   )
 }
-
 
 export default Apropos
