@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import Banner from '../Composants-Style/Banner'
-import Footer from '../Composants-Style/Footer'
+import Banner from '../../Composants/Banner'
+import Footer from '../../Composants/Footer'
 import './Page404.css'
 
 

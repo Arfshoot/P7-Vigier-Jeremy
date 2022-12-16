@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import ArrowTop from "./../../images/Arrow-Top.png";
-import ArrowBot from "./../../images/Arrow-Bot.png";
+import ArrowTop from "./../images/Arrow-Top.png";
+import ArrowBot from "./../images/Arrow-Bot.png";
+import './Liste.css'
 
 export default function Liste({ txt, title, txtArray }) {
    /* par défault fermé */

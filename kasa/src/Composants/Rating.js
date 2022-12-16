@@ -1,6 +1,6 @@
 import React from "react";
-import Star from "./../../images/Star.png";
-import EmptyStar from "./../../images/Empty-star.png";
+import Star from "./../images/Star.png";
+import EmptyStar from "./../images/Empty-star.png";
 
 
 export default function Rating(rate) {

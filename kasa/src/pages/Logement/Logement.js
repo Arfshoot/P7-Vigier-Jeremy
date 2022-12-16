@@ -1,14 +1,14 @@
 import {useEffect , useState} from 'react'
-import Banner from '../Composants-Style/Banner'
-import Footer from '../Composants-Style/Footer'
+import Banner from '../../Composants/Banner'
+import Footer from '../../Composants/Footer'
 import logements from '../../logement.json'
 import { useParams, useNavigate} from "react-router-dom";
 import './Logement.css'
-import Rating from './Rating.js'
-import Slider from './Slide.js'
-import Liste from './Liste.js'
-import './Liste.css'
-import './Slide.css'
+import Rating from '../../Composants/Rating.js'
+import Slider from '../../Composants/Slide.js'
+import Liste from '../../Composants/Liste'
+import '../../Composants/Liste'
+import '../../Composants/Slide.css'
 
 
 

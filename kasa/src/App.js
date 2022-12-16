@@ -1,10 +1,10 @@
 import './App.css'
 import {Routes, Route} from 'react-router-dom'
 
-import Home from './Components/Home/Home';
-import Page404 from './Components/Error/Page404'
-import Logement from './Components/Logement/Logement'
-import Apropos from './Components/Apropos/Apropos'
+import Home from './pages/Home/Home';
+import Page404 from './pages/Error/Page404'
+import Logement from './pages/Logement/Logement'
+import Apropos from './pages/Apropos/Apropos'
 
 
 

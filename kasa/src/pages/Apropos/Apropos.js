@@ -1,11 +1,11 @@
 
 
 import React from 'react'
-import Banner from '../Composants-Style/Banner'
-import Footer from '../Composants-Style/Footer'
+import Banner from '../../Composants/Banner'
+import Footer from '../../Composants/Footer'
 import montagneSnow from './../../images/img-snow.png'
 import apropos from '../../dataApropos.json'
-import Liste from '../Logement/Liste'
+import Liste from '../../Composants/Liste'
 import './Apropos.css'
 
 

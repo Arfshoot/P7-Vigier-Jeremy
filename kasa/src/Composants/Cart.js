@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Logements from '../../logement.json'
+import Logements from '../logement.json'
 import './Cart.css'
 
 

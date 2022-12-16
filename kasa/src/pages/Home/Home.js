@@ -1,9 +1,9 @@
 import React from 'react'
 import './Home.css'
-import Banner from '../Composants-Style/Banner'
+import Banner from '../../Composants/Banner'
 import montagne from './../../images/IMG.png'
-import Cart from '../Composants-Style/Cart'
-import Footer from '../Composants-Style/Footer'
+import Cart from '../../Composants/Cart'
+import Footer from '../../Composants/Footer'
 
 
 
